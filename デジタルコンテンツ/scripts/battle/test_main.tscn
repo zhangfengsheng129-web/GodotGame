@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://c777tndqbyheh"]
+
+[ext_resource type="Script" uid="uid://uvowlkhjkrao" path="res://scripts/testMain@FUJIWARA/testMain.gd" id="1_xygnw"]
+[ext_resource type="Script" uid="uid://cuar5da6bnrhx" path="res://scripts/testMain@FUJIWARA/testUI.gd" id="2_n2sq5"]
+
+[node name="testMain" type="Control" unique_id=1008594703]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_xygnw")
+
+[node name="background" type="ColorRect" parent="." unique_id=1881323507]
+layout_mode = 0
+offset_right = 1200.0
+offset_bottom = 800.0
+color = Color(0.35686275, 0.36078432, 0.38039216, 1)
+
+[node name="MainLayout" type="VBoxContainer" parent="." unique_id=1451564363]
+layout_mode = 0
+offset_right = 1200.0
+offset_bottom = 800.0
+
+[node name="TitleLabel" type="Label" parent="MainLayout" unique_id=597224334]
+layout_mode = 2
+
+[node name="InstructionLabel" type="Label" parent="MainLayout" unique_id=377485750]
+layout_mode = 2
+
+[node name="InputLabel" type="Label" parent="MainLayout" unique_id=559880283]
+layout_mode = 2
+
+[node name="StatusLabel" type="Label" parent="MainLayout" unique_id=1003215208]
+layout_mode = 2
+
+[node name="Keyboard" type="Control" parent="MainLayout" unique_id=1543762010]
+layout_mode = 2
+script = ExtResource("2_n2sq5")
