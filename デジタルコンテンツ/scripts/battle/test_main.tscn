@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c777tndqbyheh"]
 
-[ext_resource type="Script" uid="uid://uvowlkhjkrao" path="res://scripts/testMain@FUJIWARA/testMain.gd" id="1_xygnw"]
-[ext_resource type="Script" uid="uid://cuar5da6bnrhx" path="res://scripts/testMain@FUJIWARA/testUI.gd" id="2_n2sq5"]
+[ext_resource type="Script" uid="uid://uvowlkhjkrao" path="res://scripts/testMain/testMain.gd" id="1_xygnw"]
+[ext_resource type="Script" uid="uid://cuar5da6bnrhx" path="res://scripts/testMain/testUI.gd" id="2_n2sq5"]
 
 [node name="testMain" type="Control" unique_id=1008594703]
 layout_mode = 3
